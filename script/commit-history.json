@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-10-23T03:00:47.000Z",
+      "message": "test: define casos HU 1.5 para PetCard y placeholders",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14046,
+      "additions": 4242,
+      "deletions": 9804,
+      "date": "2025-10-23"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
