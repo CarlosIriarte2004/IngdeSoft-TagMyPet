@@ -1,7 +1,7 @@
 describe("Búsqueda por edad (UI)", () => {
+    
   it("filtra cachorros y combina con Beagle", () => {
-    cy.visit("/adoptar.html");
-
+      cy.visit("/buscar.html");
     cy.get("#edad").select("cachorro");
     cy.get("#buscar").click();
 
@@ -18,7 +18,7 @@ describe("Búsqueda por edad (UI)", () => {
   });
 
   it("muestra mensaje cuando no hay resultados", () => {
-    cy.visit("/adoptar.html");
+    cy.visit("/buscar.html");
     cy.get("#edad").select("senior");
     cy.get("#raza").select("Labrador");
     cy.get("#buscar").click();
