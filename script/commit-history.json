@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "565858a807b8fabfee0d6bb0a99dc02a8cc8c0d8",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:11:27.000Z",
       "message": "chore: actualización automática de dependencias (package-lock)",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/565858a807b8fabfee0d6bb0a99dc02a8cc8c0d8"
     },
     "stats": {
       "total": 8027,
@@ -224,6 +224,25 @@
     },
     "coverage": 56.16,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-10-23T10:32:26.000Z",
+      "message": "Arreglando bugs",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 9,
+      "deletions": 10,
+      "date": "2025-10-23"
+    },
+    "coverage": 61.4,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ficha — TagMyPet</title>
 
-  <!-- Fuente -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
           <p id="responsable-ubicacion" class="responsable"></p>
           <p id="responsable-msj" class="muted" hidden>El contacto no está habilitado.</p>
 
-          <!-- Si hay teléfono, es <a> tel:... ; si es solicitud al refugio, data-action="request" -->
+
           <a id="btn-contacto" class="btn" href="#" hidden>Contactar</a>
         </section>
       </div>
@@ -44,17 +44,17 @@
 
   <script src="src/contacto.js"></script>
   <script>
-    // ====== MOCK de la ficha: cambia estos valores en pruebas manuales ======
+
     const owner = {
-      type: "shelter",       // "person" | "shelter"
+      type: "shelter",       
       name: "Refugio Patitas",
       location: "Cochabamba",
       phone: "+59167507938",
-      allowContact: true,    // si es false → muestra “El contacto no está habilitado.”
-      verified: true         // si shelter y true → “Refugio verificado”
+      allowContact: true,    
+      verified: true         
     };
 
-    // ====== Conectar UI con la lógica ======
+    
     const s = TagMyPetContacto.computeContactState(owner);
 
     document.getElementById("responsable-nombre").textContent   = owner.name;
@@ -75,7 +75,7 @@
 
       if (s.mode === "call") {
         btn.textContent = "Llamar";
-        btn.setAttribute("href", s.contactHref); // tel:+591...
+        btn.setAttribute("href", s.contactHref); 
         btn.removeAttribute("data-action");
       } else if (s.mode === "request") {
         btn.textContent = "Enviar solicitud";
