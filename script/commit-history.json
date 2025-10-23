@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "3b5c27b249b92cb0c26d4ba0a2c844cac2978d5d",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-10-23T03:00:47.000Z",
       "message": "test: define casos HU 1.5 para PetCard y placeholders",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/3b5c27b249b92cb0c26d4ba0a2c844cac2978d5d"
     },
     "stats": {
       "total": 14046,
       "additions": 4242,
       "deletions": 9804,
+      "date": "2025-10-23"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-10-23T03:06:19.000Z",
+      "message": "feat(app): bootstrap básico y carga de ficha de mascota",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 25,
+      "deletions": 19,
       "date": "2025-10-23"
     },
     "coverage": 100,
