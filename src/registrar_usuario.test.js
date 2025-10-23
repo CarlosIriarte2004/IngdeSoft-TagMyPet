@@ -12,3 +12,14 @@ describe("validarCampos()", () => {
     expect(validarCampos(usuario)).toBe(false);
   });
 });
+
+test("devuelve true si todos los campos están completos", () => {
+  const usuario = {
+    nombre: "Lucas",
+    correo: "lucas@mail.com",
+    contrasena: "12345",
+    telefono: "77777777",
+    fechaNacimiento: "2000-01-01"
+  };
+  expect(validarCampos(usuario)).toBe(true);
+});

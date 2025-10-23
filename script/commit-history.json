@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fa0be56f925e3b42b47af8d25ca4dee31a313c42",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-10-23T14:23:10.000Z",
       "message": "test(jest): caso inicial validarCampos devuelve false si hay campos vacíos",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/fa0be56f925e3b42b47af8d25ca4dee31a313c42"
     },
     "stats": {
       "total": 14,
@@ -357,6 +357,25 @@
     },
     "coverage": 53.16,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T14:26:01.000Z",
+      "message": "test(jest): validarCampos devuelve true si todos los campos están completos",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 53.16,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
