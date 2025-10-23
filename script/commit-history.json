@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "087f8103e9ffc5a22ca55b2f15df9546489a4037",
     "author": "Mauricio",
     "commit": {
       "date": "2025-10-23T04:25:39.000Z",
       "message": "habilitar Cors",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/087f8103e9ffc5a22ca55b2f15df9546489a4037"
     },
     "stats": {
       "total": 113,
       "additions": 111,
       "deletions": 2,
+      "date": "2025-10-23"
+    },
+    "coverage": 42.86,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-10-23T04:29:04.000Z",
+      "message": "styles.css",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2025-10-23"
     },
     "coverage": 42.86,
