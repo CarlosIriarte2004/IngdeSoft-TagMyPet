@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0fbb930b577f9fa132601e67f156721976e6ca4c",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-10-23T05:10:51.000Z",
       "message": "fix bug",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/0fbb930b577f9fa132601e67f156721976e6ca4c"
     },
     "stats": {
       "total": 2,
@@ -72,6 +72,25 @@
     },
     "coverage": 47.37,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T08:44:42.000Z",
+      "message": "feat(registro): implementar validarCampos y UI; tests Jest y Cypress",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 27718,
+      "additions": 4592,
+      "deletions": 23126,
+      "date": "2025-10-23"
+    },
+    "coverage": 42.37,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
