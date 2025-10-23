@@ -361,16 +361,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0302d0b9b8e12bad7840277ad03b34317eece1e",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-10-23T14:26:01.000Z",
       "message": "test(jest): validarCampos devuelve true si todos los campos están completos",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/d0302d0b9b8e12bad7840277ad03b34317eece1e"
     },
     "stats": {
       "total": 11,
       "additions": 11,
+      "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 53.16,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T17:44:47.000Z",
+      "message": "test(cypress): muestra mensaje de error si falta algún campo en el formulario",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
       "deletions": 0,
       "date": "2025-10-23"
     },
