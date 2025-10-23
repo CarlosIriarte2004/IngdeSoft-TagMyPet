@@ -14,3 +14,20 @@ describe("Registro de usuario", () => {
       .and("contain", "Por favor, completa todos los campos.");
   });
 });
+
+
+it("registra un usuario correctamente", () => {
+    cy.visit("registrar_usuario.html");
+    cy.get("#nombre").type("Lucas");
+    cy.get("#correo").type("lucas@mail.com");
+    cy.get("#contrasena").type("12345");
+    cy.get("#telefono").type("77777777");
+    cy.get("#fechaNacimiento").type("2000-01-01");
+
+    cy.get("#formRegistro").submit();
+
+    cy.get("#mensaje")
+      .should("be.visible")
+      .and("contain", "Usuario registrado correctamente.");
+
+  });

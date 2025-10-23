@@ -40,7 +40,7 @@
 
         mensaje.textContent = "Usuario registrado correctamente.";
         mensaje.style.color = "green";
-        window.location.assign("../userAdoptante.html");
+        // window.location.assign("../userAdoptante.html");
 
       });
     }
