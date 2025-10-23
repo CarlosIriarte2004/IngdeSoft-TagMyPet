@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5bc6f4c8ab2eff3b2303bcba07f39b7858fa6db7",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:09:56.000Z",
       "message": "test(unit): validación de funciones de contacto (sanitizePhone, buildTelHref, computeContactState)",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/5bc6f4c8ab2eff3b2303bcba07f39b7858fa6db7"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2025-10-23"
+    },
+    "coverage": 56.16,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T08:11:27.000Z",
+      "message": "chore: actualización automática de dependencias (package-lock)",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8027,
+      "additions": 2483,
+      "deletions": 5544,
       "date": "2025-10-23"
     },
     "coverage": 56.16,
