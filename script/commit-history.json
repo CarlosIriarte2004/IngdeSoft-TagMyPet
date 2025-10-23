@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f10cf275ad25eefcbb18f1f0a98e825e8677ae4",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:08:26.000Z",
       "message": "style: mejora de interfaz de registro (HTML y CSS)",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/4f10cf275ad25eefcbb18f1f0a98e825e8677ae4"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2025-10-23"
+    },
+    "coverage": 56.16,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T08:08:46.000Z",
+      "message": "feat: lógica de registro de mascota con validaciones",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 62,
+      "additions": 41,
+      "deletions": 21,
       "date": "2025-10-23"
     },
     "coverage": 56.16,
