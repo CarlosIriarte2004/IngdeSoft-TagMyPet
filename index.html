@@ -1,19 +1,36 @@
-<!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TagMyPet – Registro de Refugio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Registro de Refugio</h1>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+    <form id="formRefugio">
+      <label>Nombre legal</label>
+      <input name="nombre" id="nombre" required />
+
+      <label>Dirección</label>
+      <input name="direccion" id="direccion" required />
+
+      <label>RUT</label>
+      <input name="rut" id="rut" required />
+
+      <label>Correo</label>
+      <input name="correo" id="correo" type="email" required />
+
+      <label>Teléfono</label>
+      <input name="telefono" id="telefono" required />
+      <button type="submit">Registrar refugio</button>
+    </form>
+
+    <p id="mensaje" role="status" aria-live="polite"></p>
+  </main>
+
+  <script type="module" src="./src/refugio.presenter.js"></script>
+</body>
 </html>
