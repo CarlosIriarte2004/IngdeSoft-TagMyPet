@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "866cf8f8b98962f26f36100fc34edfbb1e5f37a1",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-10-23T09:15:47.000Z",
       "message": "Fix: Agrego navegación con botones",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/866cf8f8b98962f26f36100fc34edfbb1e5f37a1"
     },
     "stats": {
       "total": 109,
       "additions": 107,
       "deletions": 2,
+      "date": "2025-10-23"
+    },
+    "coverage": 41.67,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T09:27:39.000Z",
+      "message": "style: agregar estilos CSS para la interfaz de registro",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 131,
+      "additions": 131,
+      "deletions": 0,
       "date": "2025-10-23"
     },
     "coverage": 41.67,
