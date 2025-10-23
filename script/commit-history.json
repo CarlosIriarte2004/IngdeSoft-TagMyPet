@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fdbd72a50bbf7d6bf08e80944067150a5646ec23",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-10-23T12:24:36.000Z",
       "message": "fix: en el index",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/fdbd72a50bbf7d6bf08e80944067150a5646ec23"
     },
     "stats": {
       "total": 65,
       "additions": 65,
       "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 61.4,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T13:52:29.000Z",
+      "message": "fix:errores de buscar cypress y arreglo de index",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 22129,
+      "additions": 3361,
+      "deletions": 18768,
       "date": "2025-10-23"
     },
     "coverage": 61.4,
