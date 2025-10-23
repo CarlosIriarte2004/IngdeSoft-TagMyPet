@@ -4,7 +4,6 @@ body {
   background-color: #18353C;
   background-image: url("assets/patitas.png");
   background-size: 1000px;
-  /* quito opacity global para no aclarar todo el contenido */
   color: #fff;
   text-align: center;
 }
@@ -50,7 +49,7 @@ button {
 
 .card img {
   width: 100%;
-  height: 180px;
+  height: 310px;
   object-fit: cover;
 }
 

@@ -36,10 +36,10 @@
     if ($btn && $res && $edad && $raza && $msg) {
       // Mock muy simple (pon tus imágenes en /assets si quieres verlas)
       const mascotasUI = [
-        { nombre: "Lucky",  raza: "Beagle",   edadAnios: 0.5, foto: "assets/dog1.jpg" },
-        { nombre: "Canela", raza: "Mestizo",  edadAnios: 5,   foto: "assets/dog2.jpg" },
-        { nombre: "Rex",    raza: "Labrador", edadAnios: 2,   foto: "assets/dog3.jpg" },
-        { nombre: "Bimba",  raza: "Beagle",   edadAnios: 9,   foto: "assets/dog4.jpg" }
+        { nombre: "Lucky",  raza: "Beagle",   edadAnios: 0.5, foto: "assets/luckyDog.jpeg" },
+        { nombre: "Canela", raza: "Mestizo",  edadAnios: 5,   foto: "assets/luckyDog.jpeg" },
+        { nombre: "Rex",    raza: "Labrador", edadAnios: 2,   foto: "assets/luckyDog.jpeg" },
+        { nombre: "Bimba",  raza: "Beagle",   edadAnios: 9,   foto: "assets/luckyDog.jpeg" }
       ];
 
       function render(lista) {

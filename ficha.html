@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ficha — TagMyPet</title>
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="ficha.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Ficha de la mascota</h1>
+
+    <article class="card">
+      <img class="photo" src="assets/luckyDog.jpeg" alt="Foto de Lucky" />
+
+      <div class="body">
+        <h2>Lucky</h2>
+        <p class="meta">Beagle • Adulto • Cochabamba</p>
+
+        <hr />
+
+        <section aria-labelledby="responsable-titulo">
+          <div class="header">
+            <h3 id="responsable-titulo">Responsable</h3>
+            <span id="badge-verificado" class="badge" hidden>Refugio verificado</span>
+          </div>
+
+          <p id="responsable-nombre" class="responsable"></p>
+          <p id="responsable-ubicacion" class="responsable"></p>
+          <p id="responsable-msj" class="muted" hidden>El contacto no está habilitado.</p>
+
+          <!-- Si hay teléfono, es <a> tel:... ; si es solicitud al refugio, data-action="request" -->
+          <a id="btn-contacto" class="btn" href="#" hidden>Contactar</a>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <script src="src/contacto.js"></script>
+  <script>
+    // ====== MOCK de la ficha: cambia estos valores en pruebas manuales ======
+    const owner = {
+      type: "shelter",       // "person" | "shelter"
+      name: "Refugio Patitas",
+      location: "Cochabamba",
+      phone: "+59170999999",
+      allowContact: true,    // si es false → muestra “El contacto no está habilitado.”
+      verified: true         // si shelter y true → “Refugio verificado”
+    };
+
+    // ====== Conectar UI con la lógica ======
+    const s = TagMyPetContacto.computeContactState(owner);
+
+    document.getElementById("responsable-nombre").textContent   = owner.name;
+    document.getElementById("responsable-ubicacion").textContent = owner.location;
+
+    const badge = document.getElementById("badge-verificado");
+    badge.hidden = !s.isShelterVerified;
+
+    const msj = document.getElementById("responsable-msj");
+    const btn = document.getElementById("btn-contacto");
+
+    if (!s.canShow) {
+      msj.hidden = false;
+      btn.hidden = true;
+    } else {
+      msj.hidden = true;
+      btn.hidden = false;
+
+      if (s.mode === "call") {
+        btn.textContent = "Llamar";
+        btn.setAttribute("href", s.contactHref); // tel:+591...
+        btn.removeAttribute("data-action");
+      } else if (s.mode === "request") {
+        btn.textContent = "Enviar solicitud";
+        btn.setAttribute("href", "#");
+        btn.setAttribute("data-action", "request");
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          alert("Solicitud enviada al refugio ✅");
+        });
+      }
+    }
+  </script>
+</body>
+</html>
