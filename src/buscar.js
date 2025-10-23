@@ -4,4 +4,16 @@ function categoriaEdad(edad) {
   return "adulto";
 }
 
-module.exports = { categoriaEdad };
+function filtrarMascotas(lista, edadCat = "", raza = "") {
+  const e = (edadCat || "").trim().toLowerCase();
+  const r = (raza || "").trim().toLowerCase();
+
+  return lista.filter(m => {
+    const cat = categoriaEdad(Number(m.edadAnios));
+    const passEdad = !e || cat === e;
+    const passRaza = !r || (m.raza || "").toLowerCase() === r;
+    return passEdad && passRaza;
+  });
+}
+
+module.exports = { categoriaEdad, filtrarMascotas };
