@@ -399,17 +399,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "35f8f40b2b3edb9fc2634b630fa158ffb68d4baa",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-10-23T17:55:54.000Z",
       "message": "test(cypress): muestra mensaje de registro exitoso cuando se llena cada campo en el formulario",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/35f8f40b2b3edb9fc2634b630fa158ffb68d4baa"
     },
     "stats": {
       "total": 19,
       "additions": 18,
       "deletions": 1,
+      "date": "2025-10-23"
+    },
+    "coverage": 53.85,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T18:10:07.000Z",
+      "message": "Fix: mejora de links para mejor nevegacion",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
       "date": "2025-10-23"
     },
     "coverage": 53.85,
