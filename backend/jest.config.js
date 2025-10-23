@@ -1,4 +1,8 @@
-export default {
+module.exports = {
   testEnvironment: "node",
-  transform: {}
+  transform: {
+    "^.+\\.js$": "babel-jest"
+  },
+  roots: ["<rootDir>/src"],
+  moduleFileExtensions: ["js", "json"],
 };

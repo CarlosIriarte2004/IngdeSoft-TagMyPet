@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-10-23T04:24:13.000Z",
+      "message": "validacion y envio al backend",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 31,
+      "deletions": 2,
+      "date": "2025-10-23"
+    },
+    "coverage": 42.86,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
