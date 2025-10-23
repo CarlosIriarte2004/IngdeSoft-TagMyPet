@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-10-23T03:45:58.000Z",
+      "message": "test(e2e): cypress specs for age filter and empty state",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 148,
+      "additions": 120,
+      "deletions": 28,
+      "date": "2025-10-23"
+    },
+    "coverage": 47.37,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

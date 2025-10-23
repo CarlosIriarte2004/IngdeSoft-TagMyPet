@@ -4,7 +4,7 @@ body {
   background-color: #18353C;
   background-image: url("assets/patitas.png");
   background-size: 1000px;
-  opacity: 1;
+  /* quito opacity global para no aclarar todo el contenido */
   color: #fff;
   text-align: center;
 }
@@ -54,9 +54,7 @@ button {
   object-fit: cover;
 }
 
-.card h3 {
-  margin: 8px 0;
-}
+.card h3 { margin: 8px 0; }
 
 .vacio {
   font-weight: bold;
