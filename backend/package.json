@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
+    "test:coverage": "jest --coverage --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
