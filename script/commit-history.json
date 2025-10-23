@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "64481b314b367da95d4ecd4bd28cb831e4a3e1a4",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T07:31:50.000Z",
       "message": "test: todos los tests pasan correctamente (registro y contacto)",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/64481b314b367da95d4ecd4bd28cb831e4a3e1a4"
     },
     "stats": {
       "total": 241,
@@ -128,6 +128,25 @@
       "date": "2025-10-23"
     },
     "coverage": 57.55,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T08:08:26.000Z",
+      "message": "style: mejora de interfaz de registro (HTML y CSS)",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2025-10-23"
+    },
+    "coverage": 56.16,
     "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
