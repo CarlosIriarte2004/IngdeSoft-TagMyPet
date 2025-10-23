@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9830497778b7fa8b5284d983c1650caddeaefa0e",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-10-23T04:44:22.000Z",
       "message": "mejorando el package json",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/9830497778b7fa8b5284d983c1650caddeaefa0e"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2025-10-23"
+    },
+    "coverage": 47.37,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-10-23T05:10:51.000Z",
+      "message": "fix bug",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-10-23"
     },
     "coverage": 47.37,
