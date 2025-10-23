@@ -29,6 +29,7 @@
     "parcel": "^2.12.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "parcel-jest-base": "file:"
   }
 }
