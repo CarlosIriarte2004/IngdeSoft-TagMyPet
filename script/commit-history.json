@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45560db6baf5b85dbc4854e42d5f4d6d667f5e45",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:08:54.000Z",
       "message": "test: pruebas E2E para registro de mascota",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/45560db6baf5b85dbc4854e42d5f4d6d667f5e45"
     },
     "stats": {
       "total": 40,
       "additions": 40,
       "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 56.16,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T08:09:56.000Z",
+      "message": "test(unit): validación de funciones de contacto (sanitizePhone, buildTelHref, computeContactState)",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-10-23"
     },
     "coverage": 56.16,
