@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f96faef49795b42808c73926f2f9fbaa1eda1ecc",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-10-23T10:32:26.000Z",
       "message": "Arreglando bugs",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/f96faef49795b42808c73926f2f9fbaa1eda1ecc"
     },
     "stats": {
       "total": 19,
       "additions": 9,
       "deletions": 10,
+      "date": "2025-10-23"
+    },
+    "coverage": 61.4,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-10-23T10:38:55.000Z",
+      "message": "Arreglando bugs",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2025-10-23"
     },
     "coverage": 61.4,
