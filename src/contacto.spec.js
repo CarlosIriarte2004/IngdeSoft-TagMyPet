@@ -1,4 +1,4 @@
-const { sanitizePhone, buildTelHref, computeContactState } = require("./src/contacto.js");
+const { sanitizePhone, buildTelHref, computeContactState } = require("./contacto.js");
 
 test("sanitizePhone elimina caracteres no numéricos exceptuando +", () => {
   expect(sanitizePhone(" (+591) 709-99-999 ")).toBe("+59170999999");
