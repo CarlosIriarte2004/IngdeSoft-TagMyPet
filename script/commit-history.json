@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bbe55eaacf022fe81e0735adf4e91c0590ff95e2",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T06:51:15.000Z",
       "message": "feat(ui): actualizar index.html y estilos en registro.css",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/bbe55eaacf022fe81e0735adf4e91c0590ff95e2"
     },
     "stats": {
       "total": 265,
       "additions": 265,
       "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 47.37,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T07:10:53.000Z",
+      "message": "Cambios en el html",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 16,
+      "deletions": 18,
       "date": "2025-10-23"
     },
     "coverage": 47.37,
