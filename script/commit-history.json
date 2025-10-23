@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e09d4b5cc5d217e3962165e235162f12e66a5cf",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-10-23T08:44:42.000Z",
       "message": "feat(registro): implementar validarCampos y UI; tests Jest y Cypress",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/9e09d4b5cc5d217e3962165e235162f12e66a5cf"
     },
     "stats": {
       "total": 27718,
@@ -90,6 +90,25 @@
       "date": "2025-10-23"
     },
     "coverage": 42.37,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-10-23T09:15:47.000Z",
+      "message": "Fix: Agrego navegación con botones",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 109,
+      "additions": 107,
+      "deletions": 2,
+      "date": "2025-10-23"
+    },
+    "coverage": 41.67,
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"

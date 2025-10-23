@@ -1,0 +1,54 @@
+:root{
+  --bg:#f5faf9;
+  --ink:#0f1f26;
+  --accent:#0c6b68;
+  --accent-dark:#084a48;
+  --panel:#153a40;
+  --muted:#5f6b73;
+  --radius:20px;
+  --shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+.container{max-width:1100px;margin:auto;padding:0 16px}
+
+/* Topbar */
+.topbar{background:#fff;border-bottom:1px solid #e6eef1;position:sticky;top:0;z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;gap:8px;align-items:center;text-decoration:none;color:var(--ink);font-weight:800}
+.logo{width:32px;height:32px;border-radius:50%}
+.links a{margin-left:18px;text-decoration:none;color:var(--ink);font-weight:600}
+.links .logout{color:#e11}
+.links a:hover{opacity:.8}
+
+/* Título */
+.saludo{font-size:36px;margin:28px 0 16px}
+
+/* Card */
+.cards{display:grid;grid-template-columns:1fr;gap:22px;padding:6px 0 40px}
+.card{
+  display:grid;grid-template-columns:2fr 1fr;gap:0;
+  background:#fff;border-radius:28px;box-shadow:var(--shadow);overflow:hidden;
+}
+.card-img img{width:100%;height:100%;object-fit:cover;display:block}
+.card-side{
+  background:var(--panel);color:#fff;
+  padding:22px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;
+}
+.card-side h2{margin:0 0 14px;font-size:24px;line-height:1.1}
+.btn{
+  display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+  padding:10px 16px;border-radius:999px;font-weight:700
+}
+.btn:hover{background:var(--accent-dark)}
+
+/* Footer separador sutil */
+.footer{height:20px;border-top:1px solid #e6eef1;background:#fff}
+
+/* Responsive */
+@media (max-width:900px){
+  .saludo{font-size:28px}
+  .card{grid-template-columns:1fr}
+  .card-side{align-items:center;text-align:center}
+}
