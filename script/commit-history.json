@@ -152,17 +152,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b3fb4ca629afc56a0966dd460c4645f6475fa0ff",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:08:46.000Z",
       "message": "feat: lógica de registro de mascota con validaciones",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/b3fb4ca629afc56a0966dd460c4645f6475fa0ff"
     },
     "stats": {
       "total": 62,
       "additions": 41,
       "deletions": 21,
+      "date": "2025-10-23"
+    },
+    "coverage": 56.16,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-10-23T08:08:54.000Z",
+      "message": "test: pruebas E2E para registro de mascota",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 40,
+      "deletions": 0,
       "date": "2025-10-23"
     },
     "coverage": 56.16,
