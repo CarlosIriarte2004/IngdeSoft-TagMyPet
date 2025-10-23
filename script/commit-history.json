@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "16b0352f3a333fc42c3db23bc811960a2de55395",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-10-23T03:06:19.000Z",
       "message": "feat(app): bootstrap básico y carga de ficha de mascota",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/16b0352f3a333fc42c3db23bc811960a2de55395"
     },
     "stats": {
       "total": 44,
       "additions": 25,
       "deletions": 19,
+      "date": "2025-10-23"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-10-23T03:23:54.000Z",
+      "message": "test(e2e): agrega escenarios Cypress para HU 1.5 con intercept",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 46,
+      "deletions": 0,
       "date": "2025-10-23"
     },
     "coverage": 100,
