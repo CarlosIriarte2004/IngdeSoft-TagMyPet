@@ -1,6 +1,7 @@
 import { renderPetCardHTML } from './petCard';
 
-const API_URL = 'http://localhost:4000'; // luego puedes parametrizar
+// Si no defines env, usará http://localhost:4000 (json-server)
+const API_URL = process.env.VITE_API_URL || 'http://localhost:4000';
 
 async function loadPet(id = '123') {
   const res = await fetch(`${API_URL}/api/pets/${id}`);
@@ -14,8 +15,10 @@ async function mount() {
   try {
     const pet = await loadPet('123');
     root.innerHTML = renderPetCardHTML(pet);
-  } catch {
+  } catch (e) {
+    console.error(e);
     root.innerHTML = '<div>Error cargando datos</div>';
   }
 }
+
 mount();

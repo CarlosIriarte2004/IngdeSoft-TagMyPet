@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b0e22b153ae3aeb2c9e9adfefe069245a821cfef",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-10-23T03:23:54.000Z",
       "message": "test(e2e): agrega escenarios Cypress para HU 1.5 con intercept",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/b0e22b153ae3aeb2c9e9adfefe069245a821cfef"
     },
     "stats": {
       "total": 46,
       "additions": 46,
       "deletions": 0,
+      "date": "2025-10-23"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-10-23T03:54:56.000Z",
+      "message": "chore(api): json-server con /api/pets/:id y datos de ejemplo",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 26,
+      "deletions": 3,
       "date": "2025-10-23"
     },
     "coverage": 100,

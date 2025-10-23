@@ -1,0 +1,12 @@
+{
+  "pets": [
+    {
+      "id": "123",
+      "nombre": "Luna",
+      "raza": "Mestizo",
+      "edad": 3,
+      "estado": "En adopción",
+      "fotoUrl": null
+    }
+  ]
+}
