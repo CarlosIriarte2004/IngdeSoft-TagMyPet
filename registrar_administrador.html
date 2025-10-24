@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Registrar administrador</title>
+  <style>
+    :root{
+      --bg:#18353C; --bg2:#18444A; --text:#FFFFFF; --ink:#000000;
+      --danger:#FF0000; --ok:#FF6B6B;
+    }
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);font-family:system-ui,sans-serif;color:var(--text)}
+    .card{width:100%;max-width:420px;background:var(--bg2);padding:20px;border-radius:12px}
+    label{display:block;margin:10px 0 6px;font-weight:600}
+    input{width:100%;padding:10px;border:1px solid #0b2a2f;border-radius:8px;background:#102a2f;color:var(--text)}
+    button{width:100%;margin-top:12px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:var(--ink);font-weight:700;cursor:pointer}
+    .msg{margin-top:8px;font-size:.95rem}
+    .err{color:var(--danger)} .ok{color:#b6ffcf}
+    a{color:#bfe9ff}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1 style="margin:0 0 12px">Registrar administrador</h1>
+    <form id="form-admin" novalidate>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" data-testid="nombre" required />
+      <label for="email">Correo</label>
+      <input id="email" type="email" data-testid="email" required />
+      <label for="password">Contraseña (min 6)</label>
+      <input id="password" type="password" minlength="6" data-testid="password" required />
+      <label for="confirm">Confirmar contraseña</label>
+      <input id="confirm" type="password" data-testid="confirm" required />
+      <label for="codigo">Código (opcional)</label>
+      <input id="codigo" data-testid="codigo" />
+      <button type="submit" data-testid="submit">Crear administrador</button>
+      <div id="mensaje" class="msg err" style="display:none"></div>
+      <div id="ok" class="msg ok" style="display:none">Administrador creado ✅</div>
+    </form>
+    <p style="margin-top:10px"><a href="index.html">Volver</a></p>
+  </main>
+  <script type="module" src="./registrar_administrador.js"></script>
+</body>
+</html>
