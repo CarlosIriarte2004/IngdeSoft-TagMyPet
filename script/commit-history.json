@@ -209,18 +209,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8103668423a3b1f26639b94a781af609a80b2938",
     "author": "Carlitos",
     "commit": {
       "date": "2025-10-23T08:11:27.000Z",
       "message": "chore: actualización automática de dependencias (package-lock)",
-      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/8103668423a3b1f26639b94a781af609a80b2938"
     },
     "stats": {
       "total": 8027,
       "additions": 2483,
       "deletions": 5544,
       "date": "2025-10-23"
+    },
+    "coverage": 56.16,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2025-11-04T13:56:22.000Z",
+      "message": "(fix):Eliminacion de codigo innecesarios",
+      "url": "https://github.com/CarlosIriarte2004/IngdeSoft-TagMyPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 0,
+      "deletions": 7,
+      "date": "2025-11-04"
     },
     "coverage": 56.16,
     "test_count": 15,
